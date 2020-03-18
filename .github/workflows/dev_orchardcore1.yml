@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'orchardcore1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ae736db4a5eb4a1fa821ec0ca28c16e6 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f22e43be779741e8870576712a6007c5 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
